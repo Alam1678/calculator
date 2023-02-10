@@ -9,42 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
   
-  <script>
-
-function displayMe(x){
-	// alert(document.form1.display.value[0]);
-		if(document.form1.display.value[0] < 1)
-		{
-			document.form1.display.value = x;
-		}
-		else
-		{
-			document.form1.display.value =  document.form1.display.value + x;
-		}
-	}
-function results()
-	{
-	var exp = document.form1.display.value;
-	if(exp)
-	{
-	document.form1.display.value = eval(exp)
-	}
-	}
-function Clear()
-	{
-		document.form1.display.value = 0;
-	}
-function squireRoot()
-	{	
-			document.form1.display.value = Math.sqrt(document.form1.display.value);
-	}
-function DeleteMe()
-		{
-			//var txt = document.form1.display.value;
-			document.form1.display.value = document.form1.display.value.substring(0, document.form1.display.value.length-1);
-
-		}
-</script>
+  
 </head>
 <body>
 
@@ -87,6 +52,42 @@ function DeleteMe()
 
 
 	</div>
+	<script>
+
+function displayMe(x){
+	// alert(document.form1.display.value[0]);
+		if(document.form1.display.value[0] < 1)
+		{
+			document.form1.display.value = x;
+		}
+		else
+		{
+			document.form1.display.value =  document.form1.display.value + x;
+		}
+	}
+function results()
+	{
+	var exp = document.form1.display.value;
+	if(exp)
+	{
+	document.form1.display.value = eval(exp)
+	}
+	}
+function Clear()
+	{
+		document.form1.display.value = 0;
+	}
+function squireRoot()
+	{	
+			document.form1.display.value = Math.sqrt(document.form1.display.value);
+	}
+function DeleteMe()
+		{
+			//var txt = document.form1.display.value;
+			document.form1.display.value = document.form1.display.value.substring(0, document.form1.display.value.length-1);
+
+		}
+</script>
 
 </body>
 </html>
