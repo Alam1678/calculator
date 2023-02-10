@@ -44,7 +44,6 @@ function DeleteMe()
 			document.form1.display.value = document.form1.display.value.substring(0, document.form1.display.value.length-1);
 
 		}
-
 </script>
 </head>
 <body>
